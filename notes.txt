@@ -1,0 +1,6 @@
+k3d cluster create --servers 3 --agents 3 -p "30000:30000@loadbalancer"
+
+docker build -t gmaceu/k8s-conversao:v1 --push .
+
+
+
